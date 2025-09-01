@@ -1,1 +1,2 @@
-velocidade = 5
+velocidade = 10
+global.pontosP1 = 0

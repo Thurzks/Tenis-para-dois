@@ -36,10 +36,13 @@
   "name":"Tênis para dois",
   "resources":[
     {"id":{"name":"objbola","path":"objects/objbola/objbola.yy",},},
+    {"id":{"name":"objbotaorestart","path":"objects/objbotaorestart/objbotaorestart.yy",},},
     {"id":{"name":"objplayer1","path":"objects/objplayer1/objplayer1.yy",},},
     {"id":{"name":"objplayer2","path":"objects/objplayer2/objplayer2.yy",},},
+    {"id":{"name":"objpontuacao","path":"objects/objpontuacao/objpontuacao.yy",},},
     {"id":{"name":"rmFase","path":"rooms/rmFase/rmFase.yy",},},
     {"id":{"name":"sprbola","path":"sprites/sprbola/sprbola.yy",},},
+    {"id":{"name":"sprbotao","path":"sprites/sprbotao/sprbotao.yy",},},
     {"id":{"name":"sprplayers","path":"sprites/sprplayers/sprplayers.yy",},},
   ],
   "resourceType":"GMProject",
