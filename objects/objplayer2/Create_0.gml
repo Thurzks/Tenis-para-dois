@@ -1,3 +1,3 @@
 image_xscale *= -1
-velocidade = 10wsws
+velocidade = 10
 global.pontosP2 = 0

@@ -15,9 +15,12 @@ velocidade+= 0.01
 	
 //Colisão com o player
 colisaoHorizontalP1 = place_meeting(x - 10 , y, objplayer1)
-colisaoHorizontalP2 = place_meeting(x + 10 , y, objplayer2)
-colisaoVerticalCima = place_meeting(x, y - 10, objplayer1) or place_meeting(x, y - 10, objplayer2)
-colisaoVerticalBaixo = place_meeting(x, y + 10, objplayer1) or place_meeting(x, y + 10, objplayer2)
+colisaoHorizontalP2 = place_meeting(x + 10 , y, objplayer2) or
+ place_meeting(x + 10 , y, objCPU)
+colisaoVerticalCima = place_meeting(x, y - 10, objplayer1) or place_meeting(x, y - 10, objplayer2) or
+ place_meeting(x, y - 10, objCPU)
+colisaoVerticalBaixo = place_meeting(x, y + 10, objplayer1) or place_meeting(x, y + 10, objplayer2) or
+place_meeting(x, y + 10, objCPU)
 if colisaoHorizontalP1{
 	movX = 1
 }
